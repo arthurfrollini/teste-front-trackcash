@@ -1,0 +1,223 @@
+.primaryHeader {
+  width: 100%;
+  height: 64px;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+
+  img {
+    width: 22px;
+    height: 30px;
+  }
+
+  .iconWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      color: var(--light);
+      margin-right: 12px;
+    }
+  }
+}
+.secondaryHeader {
+  width: 100%;
+  height: 110px;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  color: var(--light);
+
+  h1 {
+    margin-bottom: 6px;
+  }
+
+  .calendar {
+    color: var(--dark);
+    width: 160px;
+    background-color: var(--dark);
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 4px;
+
+    p {
+      color: var(--light);
+      margin-bottom: 6px;
+    }
+
+    img {
+      margin-left: 8px;
+    }
+  }
+}
+
+.container {
+  max-width: 1366px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+
+  .div1 {
+    width: 600px;
+    background-color: var(--light);
+    border-radius: 8px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+      border-radius: 8px 8px 0px 0px;
+      background-color: black;
+      width: 100%;
+      color: var(--light);
+      text-align: center;
+    }
+
+    div {
+      margin: 12px 0;
+    }
+
+    .graphic {
+      margin: 0 auto;
+    }
+
+    .listDivider {
+      height: 1px;
+      background-color: var(--line);
+      width: 90%;
+      margin: 35px auto;
+    }
+
+    .approvalPorcentages {
+      display: flex;
+      margin: 0px 16px;
+      text-align: center;
+      justify-content: space-around;
+
+      .contentWrapper {
+        width: 132px;
+      }
+
+      .firstValue {
+        font-size: 34px;
+        color: var(--blue);
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
+
+      .secondValue {
+        font-size: 34px;
+        color: var(--green);
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .div2 {
+    width: 600px;
+    margin-left: 32px;
+    background-color: var(--light);
+    border-radius: 8px;
+    height: 820px;
+
+    h1 {
+      border-radius: 8px 8px 0px 0px;
+      background-color: black;
+      color: var(--light);
+      text-align: center;
+    }
+
+    .card {
+      margin: 25px auto;
+      width: 300px;
+      background-color: var(--green);
+      height: 160px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      img {
+        width: 16px;
+        height: 29px;
+      }
+
+      strong {
+        font-size: 34px;
+        color: var(--light);
+      }
+
+      p {
+        font-size: 14px;
+        color: var(--light);
+        font-weight: bold;
+      }
+    }
+
+    .listDivider {
+      height: 1px;
+      background-color: var(--line);
+      width: 90%;
+      margin: 35px auto;
+    }
+
+    .valuesContainer {
+      display: flex;
+      justify-content: space-between;
+      margin: 45px 35px;
+
+      p {
+        text-align: right;
+        font-weight: bold;
+        font-size: 34px;
+        color: var(--danger);
+      }
+
+      span {
+        font-weight: bold;
+        text-align: right;
+        font-size: 14px;
+      }
+
+      .valuesLeft {
+        text-align: left;
+        font-weight: bold;
+        font-size: 34px;
+        color: var(--green);
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 0 16px;
+  background-color: var(--dark);
+  justify-content: space-between;
+  color: var(--light);
+  align-items: center;
+  height: 64px;
+  margin-top: 25px;
+
+  ul {
+    font-weight: bold;
+
+    li {
+      float: right;
+      margin-left: 16px;
+    }
+  }
+}
